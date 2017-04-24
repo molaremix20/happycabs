@@ -1,0 +1,134 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::after, *::before {
+  box-sizing: inherit;
+}
+
+html {
+  position: relative;
+  min-height: 100vh;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-image: url("bg.jpg");
+  background-size: cover;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+}
+
+header {
+  text-align: center;
+  padding-top: 20px;
+  height: 80px;
+}
+header a img {
+  max-width: 160px;
+}
+.launch{
+  color:#008eca;
+}
+.foi-container {
+  height: calc(100vh - 131px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.foi-container p {
+  font-weight: 600;
+  line-height: 1.5;
+}
+.foi-container .foi-description {
+  font-size: 1.625em;
+}
+.foi-container .foi-notification {
+  font-size: 1.125em;
+}
+.foi-container .foi-notification form.foi-form-notify input {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  height: 35px;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+}
+.foi-container .foi-notification form.foi-form-notify input[type=email] {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 65.88078%;
+  padding: 0 5px;
+}
+.foi-container .foi-notification form.foi-form-notify input[type=email]:last-child {
+  margin-right: 0;
+}
+.foi-container .foi-notification form.foi-form-notify input[type="text"] {
+  display: none;
+}
+.foi-container .foi-notification form.foi-form-notify input[type=submit] {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 600;
+  background-color: #008eca;
+  border-color: #008eca;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+.foi-container .foi-notification form.foi-form-notify input[type=submit]:last-child {
+  margin-right: 0;
+}
+.foi-container .foi-notification form.foi-form-notify input[type=submit]:hover {
+  background-color: #18baff;
+}
+.foi-container .foi-notification form.foi-form-notify input[type=submit]:active {
+  background-color: #007cb1;
+}
+
+footer .foi-footer-copy {
+  font-size: 0.75em;
+  letter-spacing: 0.03em;
+  color: #ddd;
+}
+footer .foi-footer-copy a {
+  color: #008eca;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+footer .foi-footer-copy a:hover {
+  color: #fff;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+.modal .content {
+  max-width: 600px;
+  min-height: 120px;
+  padding: 30px;
+  margin: 0 20px;
+  background-color: #fff;
+  border-radius: 2px;
+}
+.modal .content p {
+  color: #666;
+}
+
+/*# sourceMappingURL=style.css.map */
